@@ -22,13 +22,13 @@ public class JavaApplication21 {
         Scanner input = new Scanner(System.in);
        
        
-       System.out.print("Ingrese el primer numero :");
+       System.out.print("Ingrese el primer numero: ");
        int num1 = input.nextInt();
-       System.out.print("Ingrese el segundo numero :");
+       System.out.print("Ingrese el segundo numero:");
        int num2 = input.nextInt();
        double producto = input.nextDouble();
        
-       for (int i=0; i<=num2; i++){
+       for (int p=0; p<=num2; p++){
        producto = producto + num1;
    }
        System.out.println("El producto es: "+producto);
