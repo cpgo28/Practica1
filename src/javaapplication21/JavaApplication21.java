@@ -22,15 +22,18 @@ public class JavaApplication21 {
         Scanner input = new Scanner(System.in);
        
        
-       //mostrar mensaje
-       System.out.println(**);
-       System.out.print("INGRESE UN AÑO");
+       System.out.print("Ingrese el primer numero :");
+       int num1 = input.nextInt();
+       System.out.print("Ingrese el segundo numero :");
+       int num2 = input.nextInt();
+       double producto = input.nextDouble();
        
-       int año=input.nextInt();
-       System.out.print("INGRESE UN MES: ");
-       String mes = input.next();
-       
-       boolean añoBisiesto=
-       
-       
+       for (int i=0; i<=num2; i++){
+       producto = producto + num1;
+   }
+       System.out.println("El producto es: "+producto);
+   }
+    }
+    
+
 
